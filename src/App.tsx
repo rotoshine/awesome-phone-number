@@ -60,6 +60,7 @@ function App() {
                   />
                 </Box>
               </Box>
+              <IconButton aria-label="call" icon={<PhoneIcon />} position="absolute" left="132px"  borderRadius="50%" bgColor="green" w="56px" h="56px" bottom="108px" as="a" href={`tel:010${valueString}`}/>
             </Box>
           </Center>
         </Container>
